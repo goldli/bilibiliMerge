@@ -1,0 +1,63 @@
+
+
+/* Main {
+    background:rgb(255, 255, 255);
+    border-radius: 15px;
+    margin: 300px;
+} */
+
+
+
+QPushButton {
+    background-color: #ffffff;
+    border: 1px solid #dcdfe6;
+    padding: 10px;
+    border-radius: 16px;
+    font-size: 16px;
+}
+
+QPushButton:hover {
+    background-color: #409eff;
+    color: white;
+}
+
+QPushButton:pressed, QPushButton:checked {
+    border: 1px solid #3a8ee6;
+    background-color: #409eff;
+    color: white;
+}
+
+
+QPushButton#wndClostBtn {
+    border: none;
+	border-radius: 9px;
+    background-color: rgba(255, 0, 0, 50);
+}
+
+QPushButton#wndClostBtn:hover {
+	background-color: red;
+}
+
+QPlainTextEdit
+{
+    border: 1px solid #4400B0EE ;  
+    border-radius: 5px;
+    padding: 3px;  
+    font: 75 10pt "微软雅黑";
+}
+
+QMessageBox {
+
+    width:500px;
+}
+
+QMessageBox > QLabel {
+    color: blue; 
+    font-weight: bold;
+    font-size: 30px;
+    /* min-width: 500px; 注意：QMessageBox的左侧图像与右侧文本是各自占一半空间 */
+}
+
+QMessageBox > QPushButton {
+    width: 230px;
+}
